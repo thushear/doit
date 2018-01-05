@@ -1,0 +1,3 @@
+1513002042932
+(?:[^/]+/)*?[^/]*?
+(?:[^/]+/)*?application\.properties, (?:[^/]+/)*?bootstrap\.properties, (?:[^/]+/)*?services/[^/]*?

@@ -1,0 +1,16 @@
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\controller\IndexController.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\aspect\ThirdPartyLoginAspect.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\confg\RealmConfiguration.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\core\ClientStrategy.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\confg\ClientConfiguration.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\core\github\GitHubClientStrategy.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\exception\NotBindException.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\core\github\GitHubMemoryPrincipalBindResolver.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\ShiroClientApplication.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\confg\ShiroConfiguration.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\controller\UserController.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\controller\NotBindExceptionController.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\confg\pros\GithubProperties.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\controller\BindController.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\core\PrincipalBindResolver.java
+D:\code\doit\doit-shiro-client\src\main\java\com\carl\auth\shiro\client\demo\core\ClientStrategyFactory.java

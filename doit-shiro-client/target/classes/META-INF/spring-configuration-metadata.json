@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.carl.auth.shiro.client.demo.confg.pros.GithubProperties",
+      "name": "github",
+      "type": "com.carl.auth.shiro.client.demo.confg.pros.GithubProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.carl.auth.shiro.client.demo.confg.pros.GithubProperties",
+      "name": "github.bind-id",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}

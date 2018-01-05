@@ -16,6 +16,9 @@
     <modules>
         <module>doit-config</module>
         <module>doit-spring-dependencies</module>
+        <module>doit-sso-server</module>
+        <module>doit-sso-management</module>
+        <module>doit-shiro-client</module>
     </modules>
 
 
