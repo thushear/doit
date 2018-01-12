@@ -20,6 +20,7 @@
         <module>doit-sso-server</module>
         <module>doit-sso-management</module>
         <module>doit-shiro-client</module>
+        <module>doit-eureka-server</module>
     </modules>
 
 
