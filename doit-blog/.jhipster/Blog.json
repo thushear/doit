@@ -1,0 +1,32 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "desc",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "publicDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "content",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20171031054934",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "blog",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination"
+}

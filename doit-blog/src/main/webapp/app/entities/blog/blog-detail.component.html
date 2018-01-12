@@ -1,0 +1,37 @@
+
+<div *ngIf="blog">
+    <h2><span jhiTranslate="scaffoldApp.blog.detail.title">Blog</span> {{blog.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="scaffoldApp.blog.title">Title</span></dt>
+        <dd>
+            <span>{{blog.title}}</span>
+        </dd>
+        <dt><span jhiTranslate="scaffoldApp.blog.desc">Desc</span></dt>
+        <dd>
+            <span>{{blog.desc}}</span>
+        </dd>
+        <dt><span jhiTranslate="scaffoldApp.blog.publicDate">Public Date</span></dt>
+        <dd>
+            <span>{{blog.publicDate | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="scaffoldApp.blog.content">Content</span></dt>
+        <dd>
+            <span>{{blog.content}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'blog/'+ blog.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

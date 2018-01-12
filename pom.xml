@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>doit-blog</module>
         <module>doit-config</module>
         <module>doit-spring-dependencies</module>
         <module>doit-sso-server</module>

@@ -63,7 +63,7 @@
 @goto:eof
 
 :run
-    call:package %1 %2 %3 & java %JAVA_ARGS% -jar target/cas.war
+     java %JAVA_ARGS% -jar target/cas.war
 @goto:eof
 
 :gencert

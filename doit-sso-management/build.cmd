@@ -50,7 +50,7 @@ set DNAME="CN = cas.example.org OU = Example OU = Org  C = US"
 @goto:eof
 
 :run
-    call:package %1 %2 %3 & java -jar target/cas-management.war
+    java -jar target/cas-management.war
 @goto:eof
 
 :gencert
