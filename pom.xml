@@ -21,6 +21,10 @@
         <module>doit-sso-management</module>
         <module>doit-shiro-client</module>
         <module>doit-eureka-server</module>
+        <module>doit-hystrix-dashboard</module>
+        <module>doit-zipkin-server</module>
+        <module>doit-turbine</module>
+
     </modules>
 
 
@@ -44,7 +48,7 @@
                 <enabled>true</enabled>
             </releases>
             <id>maven2-release</id>
-            <url>http://uk.maven.org/maven2/</url>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         </repository>
         <repository>
             <snapshots>
@@ -53,7 +57,7 @@
                 <updatePolicy>interval:120</updatePolicy>
             </snapshots>
             <id>oss-snapshots</id>
-            <url>http://repository.jboss.org/nexus/content/groups/public/</url>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         </repository>
     </repositories>
 
@@ -63,7 +67,7 @@
                 <enabled>true</enabled>
             </releases>
             <id>maven2-release</id>
-            <url>http://uk.maven.org/maven2/</url>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         </pluginRepository>
     </pluginRepositories>
 
