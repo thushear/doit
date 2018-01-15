@@ -24,7 +24,7 @@
         <module>doit-hystrix-dashboard</module>
         <module>doit-zipkin-server</module>
         <module>doit-turbine</module>
-
+        <module>doit-api-gateway</module>
     </modules>
 
 
