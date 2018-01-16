@@ -45,6 +45,11 @@
             <artifactId>cas-server-support-jdbc</artifactId>
             <version>${cas.version}</version>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.41</version>
+        </dependency>
         <!-- hsqldb驱动 -->
         <dependency>
             <groupId>org.hsqldb</groupId>
