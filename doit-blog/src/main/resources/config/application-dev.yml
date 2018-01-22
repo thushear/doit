@@ -52,7 +52,7 @@ spring:
         sampler:
             percentage: 0.1
     application:
-        name: doit-blog-service
+        name: doit-blogservice
     profiles:
         active: dev
         include: swagger

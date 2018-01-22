@@ -64,12 +64,28 @@
     </build>
 
     <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>org.apereo.cas</groupId>-->
+            <!--<artifactId>cas-server-support-jdbc</artifactId>-->
+            <!--<version>${cas.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>mysql</groupId>-->
+            <!--<artifactId>mysql-connector-java</artifactId>-->
+            <!--<version>6.0.6</version>-->
+            <!--<scope>runtime</scope>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apereo.cas</groupId>-->
+            <!--<artifactId>cas-server-support-jpa-service-registry</artifactId>-->
+            <!--<version>${cas.version}</version>-->
+        <!--</dependency>-->
         <!--mongodb存储客户端配置，持久化配置与客户端配置系统配置必须一致-->
-        <dependency>
-            <groupId>org.apereo.cas</groupId>
-            <artifactId>cas-server-support-mongo-service-registry</artifactId>
-            <version>${cas.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apereo.cas</groupId>-->
+            <!--<artifactId>cas-server-support-mongo-service-registry</artifactId>-->
+            <!--<version>${cas.version}</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.apereo.cas</groupId>
             <artifactId>cas-management-webapp</artifactId>

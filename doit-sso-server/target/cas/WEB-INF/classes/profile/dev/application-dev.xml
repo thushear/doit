@@ -12,10 +12,10 @@
        http://www.springframework.org/schema/jdbc/spring-jdbc.xsd"
 >
 
-    <!--测试环境内嵌数据库进行用户的数据验证-->
-    <!--默认cas的内存数据库id为cas-hsql-database-->
-    <jdbc:embedded-database id="cas-hsql-database" type="HSQL" generate-name="">
-        <jdbc:script location="classpath*:profile/dev/sql/schema-dev.sql" encoding="UTF-8"></jdbc:script>
-        <jdbc:script location="classpath*:profile/dev/sql/data-dev.sql" encoding="UTF-8"></jdbc:script>
-    </jdbc:embedded-database>
+    <!--&lt;!&ndash;测试环境内嵌数据库进行用户的数据验证&ndash;&gt;-->
+    <!--&lt;!&ndash;默认cas的内存数据库id为cas-hsql-database&ndash;&gt;-->
+    <!--<jdbc:embedded-database id="cas-hsql-database" type="HSQL" generate-name="">-->
+        <!--<jdbc:script location="classpath*:profile/dev/sql/schema-dev.sql" encoding="UTF-8"></jdbc:script>-->
+        <!--<jdbc:script location="classpath*:profile/dev/sql/data-dev.sql" encoding="UTF-8"></jdbc:script>-->
+    <!--</jdbc:embedded-database>-->
 </beans>

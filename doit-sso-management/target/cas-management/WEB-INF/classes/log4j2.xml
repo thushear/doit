@@ -5,6 +5,7 @@
         <Console name="console" target="SYSTEM_OUT">
             <PatternLayout pattern="%highlight{%d %p [%c] - &lt;%m&gt;}%n"/>
         </Console>
+
         <RollingFile name="cas-management" fileName="logs/cas-management.log" append="true"
                      filePattern="logs/cas-management-%d{yyyy-MM-dd-HH}-%i.log.gz">
             <PatternLayout pattern="%d %p [%c] - %m%n"/>
@@ -37,8 +38,9 @@
         <AsyncLogger name="org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager" level="info">
             <AppenderRef ref="cas-management"/>
         </AsyncLogger>
-        <Root level="error">
+        <Root level="info">
             <AppenderRef ref="console"/>
+            <AppenderRef ref="cas-management"/>
         </Root>
     </Loggers>
 </Configuration>
