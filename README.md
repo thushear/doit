@@ -40,4 +40,28 @@ jhipster entity book
 |doit-shiro-client|shiro集成cas实例|8083|×|/|9|
 
 
+## Development 
+
+* jdk8
+* maven3
+
+
+# 启动相关
+* mysql 运行 init.sql 
+## 初始化
+
+1. 负责把`passport.sso.com`设置到host文件
+2. 把域名自签名证书导入到java环境（提示信息，第一个需要输入密码为**123456**，第二个导入密码为**changeit**）
+
+```cmd
+build.cmd init
+```
+
+## 启动服务
+
+ 
+
+```cmd
+build.cmd run
+```
 
