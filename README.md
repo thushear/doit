@@ -32,7 +32,7 @@ jhipster entity book
 |doit-sso-server|cas服务|8443|√|cas|2|
 |doit-sso-config|配置中心|8888|√|config|1|
 |doit-sso-management|service管理|8081|√|cas-management|3|
-|doit-api-gateway|cloud 网关|8888|√|/doit-api-gateway|4|
+|doit-api-gateway|cloud 网关|8888|√|/zuul|4|
 |doit-eureka-server|cloud 服务治理中心|1111|√|/|5|
 |doit-hystrix-dashboard|cloud 熔断dashboard|2001|×|/|6|
 |doit-zipkin-server|cloud trace监控|9411|×|/|7|
